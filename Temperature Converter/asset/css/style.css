@@ -1,0 +1,71 @@
+
+*{
+    background: linear-gradient(rgba(26, 23, 23, 0.5), rgba(250, 250, 250, 0.5)), url(../img/frost-wallpaper-preview.jpg);
+    background-size:cover;
+    background-position: center;
+    color:#fff;
+    font-weight: 900;
+    font-size: 3vh;
+        
+}
+
+.container{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom:200px;
+    background: transparent;
+}
+input::placeholder,
+input::placeholder{
+    color:#fff;
+}
+#cel,
+#fahr{
+    font-weight: 900;
+    font-size: 4vh;
+    background: none;
+    color:brown;
+}
+
+input{
+    border:none;
+    box-shadow: 2px 6px 12px slateblue;
+    font-size: 20px;
+    background: transparent;
+}
+input:hover{
+    box-shadow: fuchsia;
+}
+.button{
+    background-color: blueviolet;
+    border:none;
+    height:auto;
+    width:222px;
+    border-radius: 4px;
+    padding: 6px;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: transparent;
+    color:limegreen;
+    transform:translate(-3px);
+}
+
+h1{
+    font-family:algerian;
+    text-align:center;
+    margin-top: 50px;
+    font-weight:bolder;
+    font-size:14vh;
+    padding-left:10px;
+    font-style:oblique;
+    color:gold;
+    text-shadow:blueviolet;
+    transition: all 0.8s ease-in-out;
+}
+
+h1:hover{
+    color:darkorange;
+    transform: translateY(-3px);
+    color-interpolation-filters:auto;
+}
